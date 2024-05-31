@@ -1,5 +1,5 @@
 <?php
-function agregarUsuario(array $usuarios, $nombre,$edad, $email){
+function agregarUsuario( $usuarios, $nombre,$edad, $email){
 
                 $usuarios=[
                     "nombre"    =>$nombre,
