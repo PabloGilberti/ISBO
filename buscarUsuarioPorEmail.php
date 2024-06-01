@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 
 <?php
 
@@ -12,27 +11,6 @@ function buscarUsuarioPorEmail($usuarios,$email){
     }
         return "No existe el usuarios";
 }
-=======
-<?php
-    function bucarUsuarioPorEmail(array $usuarios,$email){
-
-        foreach($usuarios as $usuario){
-                if ($usuario["email"]==$email){
-
-                return  "El nombre es". $usuarios["nombre"];
-
-
-                }
-                return "el usuario no existe";
-
-        }
-
-
-
-    }
-
-
->>>>>>> rama1
 
 
 ?>
