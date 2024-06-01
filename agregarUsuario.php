@@ -6,7 +6,7 @@ function agregarUsuario( $usuarios, $nombre,$edad, $email){
                     "edad"      =>$edad,
                     "email"     =>$email
                 ];
-                return $usuarios;                  
+                return $usuarios ;                  
 }
 
 
