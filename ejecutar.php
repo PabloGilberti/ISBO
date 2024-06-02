@@ -8,4 +8,9 @@ $usuarios=agregarUsuario($usuarios,"Pablo","45","pgilberti@gmail.com");
 $usuarios=agregarUsuario($usuarios,"juan","45","pgilberti@gmail.com");
 $usuarios=agregarUsuario($usuarios,"mario","45","pgilberti@gmail.com");
 $usuarios=agregarUsuario($usuarios,"peteco","45","pgilberti@gmail.com");
+
+echo ('<pre>');
 var_dump($usuarios);
+echo ('</pre>');
+
+?>
